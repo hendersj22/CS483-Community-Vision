@@ -165,6 +165,668 @@ export function Buttons(props)
     )
 }
 
+
+
+export function Alphabet(props)
+{
+    let t = props.t;
+    const input = props.input;
+    
+    return (
+        <div style={{ gridArea: 'middle' }}>
+            <Container>
+                <Grid container justify='center' spacing={0}>
+                    <Grid item xs={1}>
+                        <p style={{
+                            lineHeight: 0,
+                            color: props.fontColor,
+                            fontSize: '10vh',
+                            pointer: 'default',
+                            userSelect: 'none'
+                        }}> &nbsp; </p>
+                    </Grid>
+                    <Grid item sm={10} id="input">
+                        <p style={{
+                            lineHeight: 0,
+                            color: props.fontColor,
+                            fontSize: '10vh',
+                            textAlign: 'center',
+                            pointer: 'default',
+                            userSelect: 'none'
+                        }}>{input}</p>
+                    </Grid>
+                    <Grid item xs={1}>
+                        <p style={{
+                            lineHeight: 0,
+                            color: props.fontColor,
+                            fontSize: '10vh',
+                            pointer: 'default',
+                            userSelect: 'none'
+                        }}> &nbsp; </p>
+                    </Grid>
+                </Grid>
+                <Grid container justify='center' spacing={2}>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterA" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterB" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterC" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterD" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterE" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterF" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterG" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterH" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterI" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterJ" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterK" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterL" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterM" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterN" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterO" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterP" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterQ" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterR" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterS" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterT" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterU" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterV" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterW" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterX" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            {/* button updates */}
+                            <CardActionArea>
+                                <button id="letterY" style={{
+                                    backgroundColor: props.dotButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something
+                                }}>
+                                        <span
+                                        >•
+                                        </span>
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Card>
+                            <CardActionArea>
+                                <button id="letterZ" style={{
+                                    backgroundColor: props.dashButtonColor,
+                                    width: '100%',
+                                    height: '20vh',
+                                    cursor: 'pointer',
+                                    textAlign: 'center',
+                                    fontSize: '35vh',
+                                    color: props.fontColor,
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }} onMouseDown={function () {
+                                    //do something 
+                                }}>
+                                  
+                                </button>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                </Grid>
+            </Container>
+        </div>
+    )
+}
+
+
+
+
+
 //Button code
 export function ButtonsOld(props)
 {

@@ -10,6 +10,7 @@ import LearnAlphabet from './Components/Games/LearnAlphabet';
 import Dots from './Components/Games/Dots';
 import Dashes from './Components/Games/Dashes';
 import ChooseYourLetters from './Components/Games/ChooseYourLetters';
+import OneAndTwoHits from './Components/Games/OneAndTwoHits';
 import LearnWordAdvanced from './Components/Games/LearnWord/LearnWordAdvanced';
 import LearnWordBeginner from './Components/Games/LearnWord/LearnWordBeginner';
 import LearnWordMedium from './Components/Games/LearnWord/LearnWordMedium';
@@ -66,6 +67,9 @@ function App() {
           </Route>
           <Route path="/dashes">
             <Dashes ref={currentRef} />
+          </Route>
+          <Route path="/oneAndTwoHits">
+            <OneAndTwoHits ref={currentRef} />
           </Route>
           <Route path="/learnWordBeginner">
             <LearnWordBeginner ref={currentRef} />
